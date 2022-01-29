@@ -1,5 +1,7 @@
 # How to shoot time-lapse videos of a snowstorm
 
+[![Snow accumulates in a time-lapse video of a balcony and street at dusk. As the sun sets, the street lights turn on and illuminate the street in a yellow glow. Cars and people whiz by.](snowy-dusk.gif)](https://www.youtube.com/watch?v=gHC3DE4PHYs)
+
 Instructions for my camera.
 
 - Camera: Canon PowerShot S90
@@ -59,3 +61,13 @@ See what they do in the [documentation](https://github.com/reyalpchdk/chdkscript
 [8]: https://github.com/reyalpchdk/chdkscripts/tree/main/src/rawopint#display
 
 Read up on [exposure control](https://github.com/reyalpchdk/chdkscripts/tree/main/src/rawopint#metering-and-exposure-control) to understand why those settings are important.
+
+## Create the video
+
+I forget exactly the best command to combine the images into a video, but [this stack overflow question] might help.
+
+```bash
+brew install ffmpeg
+???
+profit
+```
