@@ -64,7 +64,7 @@ Read up on [exposure control](https://github.com/reyalpchdk/chdkscripts/tree/mai
 
 ## Create the video
 
-I forget exactly the best command to combine the images into a video, but [this stack overflow question] might help.
+I forget exactly the best command to combine the images into a video, but [this stack overflow question](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg) might help.
 
 ```bash
 brew install ffmpeg
