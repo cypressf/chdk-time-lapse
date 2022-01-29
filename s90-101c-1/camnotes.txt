@@ -1,0 +1,17 @@
+
+*** Build Information ***
+CHDK for s90 fw:101c compatible fw:101b PID:12769
+build:1.5.1-6058 date:Wed, 26 Jan 2022 11:15:25 +0100
+
+*** Camera specific notes ***
+****************************************
+
+Camera depending notes:
+
+- S90 uses (as the G11) Propset 3 of properties
+- S90 uses new color palette (as G11) 
+- dryos with changed behaviour to previous dryos versions (stat() funtion, max. path lenght, etc.)
+- For cameras with firmware 101b, use the 101c port.
+- Blocking of Jogdial events does not work exactly as on the G11. The Jogdial events get somehow queued
+  and are passed to the oem firmware after leaving the ALT mode. Needs to be debuged
+  and fixed. ;)
