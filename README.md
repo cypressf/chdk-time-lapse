@@ -64,10 +64,20 @@ Read up on [exposure control](https://github.com/reyalpchdk/chdkscripts/tree/mai
 
 ## Create the video
 
-I forget exactly the best command to combine the images into a video, but [this stack overflow question](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg) might help.
+Scroll through the images to find outliers that need removing. Delete them. Put all the images in a folder called `input`, and make sure the filename order is correct.
+
+```
+brew install exiftran ffmpeg
+```
+
+If you took the photos upside-down, you can losslessly rotate them with
+
+```
+exiftran -1i *.JPG
+```
+
+Now merge them all into a video with
 
 ```bash
-brew install ffmpeg
-???
-profit
+ffmpeg -f image2 -framerate 60 -pattern_type glob -i 'input/*.JPG' -vcodec libx264 -crf 18 -preset slow output.mp4
 ```
