@@ -1,15 +1,22 @@
-# How to shoot time-lapse videos of a snowstorm
+# How to shoot time-lapse videos of a snowstorm with a Canon Powershot S90
 
 [![Snow accumulates in a time-lapse video of a balcony and street at dusk. As the sun sets, the street lights turn on and illuminate the street in a yellow glow. Cars and people whiz by.](snowy-dusk.gif)](https://www.youtube.com/watch?v=gHC3DE4PHYs)
 
-Instructions for my camera.
+This is mostly a guide for me so I don't forget how to do this next year. I'm certain there are better ways to make time-lapse videos with more modern cameras and smartphones, but if you've already got a Canon Powershot S90, this guide is for you!
 
-- Camera: Canon PowerShot S90
-- Firmware Version: GM1.01C
+## Hardware
+
+- Camera: [Canon PowerShot S90](https://www.ebay.com/sch/i.html?_from=R40&_nkw=canon+powershot+s90&_sacat=31388&rt=nc&LH_All=1) $50 on ebay
+  - Following guide is specifically for Firmware Version: GM1.01C, but you can install CHDK for any firmware version.
+- A suction-cup camera mount [like this](https://www.amazon.com/iSportgo-Suction-Different-KDLINKS-Cameras/dp/B06ZZW2Q77/ref=sr_1_5?keywords=suction+cup+camera+mount&qid=1643692702&sr=8-5) $10 on amazon
+- A [plug-in power cable](https://www.amazon.com/gp/product/B005FEIWIS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) $10 on amazon
+- Total cost: $70
 
 ## Download CHDK
 
 Download [CHDK s90-101c-1.5.1-6058-full](s90-101c-1). This is the same as the version you can find in [this table](http://mighty-hoernsche.de)), but with an added time-lapse script, [`rawopint.lua`](s90-101c-1/CHDK/SCRIPTS/rawopint.lua) and good settings for a night-to-day snowstorm time-lapse [`RAWOPINT.1`](s90-101c-1/CHDK/DATA/RAWOPINT.1).
+
+Note: if you have a different Canon Camera, or a Powershot S90 with a different firmware from GM1.01C, do not use this version of CHDK. Instead, use the CHDK guide to find your own version, and copy the script and settings into it.
 
 ## Install it on a memory card
 
@@ -70,7 +77,7 @@ Scroll through the images to find outliers that need removing. Delete them. Put 
 brew install exiftran ffmpeg
 ```
 
-If you took the photos upside-down, you can losslessly rotate them with
+If you took the photos upside-down because of the angle you suction-cupped the camera to your window, you can losslessly rotate them with
 
 ```
 exiftran -1i *.JPG
