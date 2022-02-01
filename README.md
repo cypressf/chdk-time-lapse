@@ -6,10 +6,10 @@ This is mostly a guide for me so I don't forget how to do this next year. I'm ce
 
 ## Hardware
 
-- Camera: [Canon PowerShot S90](https://www.ebay.com/sch/i.html?_from=R40&_nkw=canon+powershot+s90&_sacat=31388&rt=nc&LH_All=1) $50 on ebay
-  - Following guide is specifically for Firmware Version: GM1.01C, but you can install CHDK for any firmware version.
-- A suction-cup camera mount [like this](https://www.amazon.com/iSportgo-Suction-Different-KDLINKS-Cameras/dp/B06ZZW2Q77/ref=sr_1_5?keywords=suction+cup+camera+mount&qid=1643692702&sr=8-5) $10 on amazon
-- A [plug-in power cable](https://www.amazon.com/gp/product/B005FEIWIS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) $10 on amazon
+- Camera: Canon PowerShot S90 [$50 on ebay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=canon+powershot+s90&_sacat=31388&rt=nc&LH_All=1)
+  - This guide is for Firmware Version: GM1.01C, but you can install CHDK for any firmware version.
+- A suction-cup window camera mount [$10 on amazon](https://www.amazon.com/iSportgo-Suction-Different-KDLINKS-Cameras/dp/B06ZZW2Q77/ref=sr_1_5?keywords=suction+cup+camera+mount&qid=1643692702&sr=8-5)
+- A plug-in power cable [$10 on amazon](https://www.amazon.com/gp/product/B005FEIWIS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - Total cost: $70
 
 ## Download CHDK
