@@ -6,11 +6,17 @@ This is mostly a guide for me so I don't forget how to do this next year. I'm ce
 
 ## Hardware
 
-- Camera: Canon PowerShot S90 [$50 on ebay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=canon+powershot+s90&_sacat=31388&rt=nc&LH_All=1)
-  - This guide is for Firmware Version: GM1.01C, but you can install CHDK for any firmware version.
-- A suction-cup window camera mount [$10 on amazon](https://www.amazon.com/iSportgo-Suction-Different-KDLINKS-Cameras/dp/B06ZZW2Q77/ref=sr_1_5?keywords=suction+cup+camera+mount&qid=1643692702&sr=8-5)
-- A plug-in power cable [$10 on amazon](https://www.amazon.com/gp/product/B005FEIWIS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- Total cost: $70
+| Item                            | Purchase            |
+| :------------------------------ | :------------------ |
+| Canon PowerShot S90             | [$50 on ebay][9]    |
+| Suction-cup window camera mount | [$10 on amazon][10] |
+| Plug-in power cable             | [$10 on amazon][11] |
+
+[9]: https://www.ebay.com/sch/i.html?_from=R40&_nkw=canon+powershot+s90&_sacat=31388&rt=nc&LH_All=1
+[10]: https://www.amazon.com/iSportgo-Suction-Different-KDLINKS-Cameras/dp/B06ZZW2Q77/ref=sr_1_5?keywords=suction+cup+camera+mount&qid=1643692702&sr=8-5
+[11]: https://www.amazon.com/gp/product/B005FEIWIS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
+Not sponsored. These are the things I just had laying around.
 
 ## Download CHDK
 
@@ -47,16 +53,16 @@ These are the settings in [`RAWOPINT.1`](RAWOPINT.1) that are changed from the d
 
 See what they do in the [documentation](https://github.com/reyalpchdk/chdkscripts/tree/main/src/rawopint#Bv__Ev_Shift)
 
-|           Name           | Value |     Variable Name     | Enum Value |
-| :----------------------: | :---: | :-------------------: | :--------: |
-|   [Interval Sec/10][1]   |  100  |    ui_interval_s10    |    100     |
-|    [Max Ev change][2]    |   1   |  ui_max_ev_change_e   |     5      |
-|    [Bv Ev shift %][3]    |  49   |  ui_bv_ev_shift_pct   |     49     |
-| [Bv Ev shift base Bv][4] |  10   | ui_bv_ev_shift_base_e |     23     |
-|   [Max Tv Sec/1000][5]   | 5028  |     ui_tv_max_s1k     |    5028    |
-|       [Max ISO][6]       |  300  |     ui_sv_max_mkt     |    300     |
-|       [Use raw][7]       |  No   |     ui_use_raw_e      |     2      |
-|       [Display][8]       |  Off  |   ui_display_mode_t   |     1      |
+| Name                     | Value | Variable Name         | Enum Value |
+| :----------------------- | ----: | :-------------------- | ---------: |
+| [Interval Sec/10][1]     |   100 | ui_interval_s10       |        100 |
+| [Max Ev change][2]       |     1 | ui_max_ev_change_e    |          5 |
+| [Bv Ev shift %][3]       |    49 | ui_bv_ev_shift_pct    |         49 |
+| [Bv Ev shift base Bv][4] |    10 | ui_bv_ev_shift_base_e |         23 |
+| [Max Tv Sec/1000][5]     |  5028 | ui_tv_max_s1k         |       5028 |
+| [Max ISO][6]             |   300 | ui_sv_max_mkt         |        300 |
+| [Use raw][7]             |    No | ui_use_raw_e          |          2 |
+| [Display][8]             |   Off | ui_display_mode_t     |          1 |
 
 [1]: https://github.com/reyalpchdk/chdkscripts/tree/main/src/rawopint#Interval_sec10
 [2]: https://github.com/reyalpchdk/chdkscripts/tree/main/src/rawopint#Max_Ev_change
