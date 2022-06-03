@@ -51,7 +51,9 @@ The script [uses the focus in the first photo](https://github.com/reyalpchdk/chd
 
 - Unlock the SD card and put it in your computer
 - Transfer over all the photos that have been taken so far
-- Delete `rawopoint.csv` from the SD Card
+- Delete `rawopint.csv` from the SD Card
+- Delete `SDIM` from the SD Card
+- Re-lock it and put it back in the camera
 
 ## The pertinent settings for a night-to-day snowstorm
 
