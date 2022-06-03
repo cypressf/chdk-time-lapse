@@ -47,6 +47,12 @@ The script [uses the focus in the first photo](https://github.com/reyalpchdk/chd
 - Press the `S` (shortcuts) button to activate CHDK. It should say `raw meter intervalometer` at the bottom of the screen.
 - Press the shutter button to start the time-lapse.
 
+### If the camera turns off randomly after shooting a photo
+
+- Unlock the SD card and put it in your computer
+- Transfer over all the photos that have been taken so far
+- Delete `rawopoint.csv` from the SD Card
+
 ## The pertinent settings for a night-to-day snowstorm
 
 These are the settings in [`RAWOPINT.1`](RAWOPINT.1) that are changed from the defaults.
